@@ -1,0 +1,22 @@
+{
+  "authors" : [
+    "Ioan Rogers"
+  ],
+  "build-depends" : [ ],
+  "depends" : [ ],
+  "description" : "NativeCall bindings for Kerberso",
+  "license" : "Artistic-2.0",
+  "name" : "Kerberos",
+  "perl" : "6.c",
+  "provides" : {
+    "Kerberos" : "lib/Kerberos.pm6",
+    "Kerberos::Raw" : "lib/Kerberos/Raw.pm6"
+  },
+  "resources" : [ ],
+  "source-url" : "https://github.com/ioanrogers/p6-Kerberos.git",
+  "tags" : [ ],
+  "test-depends" : [
+    "Test::META"
+  ],
+  "version" : "0.0.1"
+}
